@@ -1,0 +1,33 @@
+{
+    "version":"2.0.0",
+    "tasks":[
+        {
+            "label" : "run java main",
+            "type" : "shell",
+            // "command" : "java",
+            "command" : "&",
+            "args":[
+                // "-cp",
+                // "./bin",
+                // "com.Main"
+
+                // "'c:/Users/Galih/.vscode/extensions/vscjava.vscode-java-debug-0.34.0/scripts/launcher.bat'",
+                // "'C:/Program Files/Java/jdk-15.0.2/bin/java.exe'",
+                // "'-XX:+ShowCodeDetailsInExceptionMessages'",
+                // "'-Dfile.encoding=UTF-8'",
+                // "'-cp' './bin' 'com.Main'"
+
+                "'c:/Users/Galih/.vscode/extensions/vscjava.vscode-java-debug-0.34.0/scripts/launcher.bat'",
+                "'C:/Program Files/Java/jdk-15.0.2/bin/java.exe'",
+                "'-XX:+ShowCodeDetailsInExceptionMessages'",
+                "'-Dfile.encoding=UTF-8'", 
+                "'@C:/Users/Galih/AppData/Local/Temp/cp_eyu6uxetb7gmygsxuhlh6p5id.argfile' 'com.Main'"
+                
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
